@@ -1,3 +1,5 @@
+# Global instruction for mailers
+
 # Grunt Email Design Workflow
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
