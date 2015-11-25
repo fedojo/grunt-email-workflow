@@ -1,23 +1,282 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="viewport" content="width=device-width" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>{{ subject }}</title>
-<link href="../src/css/main.css" media="all" rel="stylesheet" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="format-detection" content="telephone=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Test of starter</title>
+
+	<style type="text/css">
+	body{
+		-webkit-text-size-adjust:100% !important;
+		-ms-text-size-adjust:100% !important;
+		-webkit-font-smoothing:antialiased !important;
+	}
+	img{
+		border:0 !important;
+		outline:none !important;
+	}
+	p{
+		Margin:0px !important;
+		Padding:0px !important;
+	}
+	table{
+		border-collapse:collapse;
+		mso-table-lspace:0px;
+		mso-table-rspace:0px;
+	}
+	td{
+		border-collapse:collapse;
+		mso-line-height-rule:exactly;
+	}
+	span.MsoHyperlink {
+		mso-style-priority: 99;
+		color: inherit;
+	}
+	span.MsoHyperlinkFollowed {
+		mso-style-priority: 99;
+		color: inherit;
+	}
+	a{
+		border-collapse:collapse;
+		mso-line-height-rule:exactly;
+	}
+	span{
+		border-collapse:collapse;
+		mso-line-height-rule:exactly;
+	}
+	.ExternalClass *{
+		line-height:100%;
+	}
+	.em_red a{ color:#ff1d1d !important; text-decoration:none !important; }
+	.em_white a{ color:#ffffff !important; text-decoration:none !important; }
+
+	@media only screen and (max-width:480px) {
+		table[class=em_wrapper] {
+			width: 100% !important;
+		}
+		td[class=em_bold] {
+			font-weight:normal !important;
+
+		}
+		multiline[class=em_bold] {
+			font-weight:normal !important;
+
+		}
+		table[class=em_width_200]{
+			width:200px !important;
+		}
+		table[class=em_main_table] {
+			width: 100% !important;
+		}
+		table[class=em_wrapper_1]{
+			background-color:#ffffff !important;
+			border-radius:5px !important;
+			width: 100% !important;
+		}
+		multiline[class=em_color]{
+			color:#000000 !important;
+			font-size:14px !important;
+		}
+		multiline[class=em_font_14]{
+			font-size:14px !important;
+			line-height:18px !important;
+		}
+		td[class=em_font_14]{
+			font-size:14px !important;
+			line-height:18px !important;
+		}
+		td[class=em_color]{
+			color:#000000 !important;
+
+			font-size:14px !important;
+		}
+		a[class=em_color]{
+			color:#000000 !important;
+
+			font-size:14px !important;
+		}
+
+		td[class=em_bg_none]{
+			background-image:none !important;
+		}
+		td[class=em_pad]{
+			padding:20px !important;
+		}
+		td[class=em_aside]{
+			padding:0px 10px !important;
+		}
+		td[class=em_hide], table[class=em_hide], span[class=em_hide], br[class=em_hide]{
+			display:none !important;
+		}
+		img[class=em_full_img]{
+			width:100% !important;
+			height:auto !important;
+		}
+
+		td[class=em_side]{
+			width:15px !important;
+		}
+		td[class=em_center]{
+			text-align:center !important;
+		}
+		span[class=em_br]{
+			display:block !important;
+		}
+		td[class=em_spc_20]{
+			height:20px !important;
+		}
+		td[class=em_gap_bottom]{
+			padding-bottom:30px !important;
+		}
+		td[class=em_bg_gray]{
+			background-color:#e6e6e6 !important;
+		}
+		td[class=em_whitefont] {
+			font-family: Arial, sans-serif !important;
+			font-size: 16px !important;
+			line-height: 24px !important;
+			color: #ffffff !important;
+			font-weight: bold !important;
+		}
+		span[class=em_block] {
+			display: block !important;
+		}
+		td[class=em_font] {
+			text-align: left !important;
+		}
+		div[class=hide_disktop] {
+			display: table !important;
+			float: none !important;
+			width: 100% !important;
+			overflow: visible !important;
+			height: auto !important;
+		}
+		td[class=em_h_30]{
+			height:30px !important;
+		}
+		td[class=em_mobbg] {
+			background-image:none !important;
+			background-color:#0d0d0d !important;
+		}
+	}
+
+	@media only screen and (min-width:481px) and (max-width:599px) {
+		table[class=em_wrapper] {
+			width: 100% !important;
+		}
+		td[class=em_bold] {
+			font-weight:normal !important;
+
+		}
+		multiline[class=em_bold] {
+			font-weight:normal !important;
+
+		}
+		table[class=em_main_table] {
+			width: 100% !important;
+		}
+		table[class=em_wrapper_1]{
+			background-color:#ffffff !important;
+			border-radius:5px !important;
+			width: 100% !important;
+		}
+		multiline[class=em_color]{
+			color:#000000 !important;
+
+		}
+		multiline[class=em_font_14]{
+			font-size:14px !important;
+			line-height:18px !important;
+		}
+		td[class=em_font_14]{
+			font-size:14px !important;
+			line-height:18px !important;
+		}
+		td[class=em_color]{
+			color:#000000 !important;
+
+
+		}
+		td[class=em_bg_none]{
+			background-image:none !important;
+		}
+		td[class=em_pad]{
+			padding:20px !important;
+		}
+		td[class=em_aside]{
+			padding:0px 10px !important;
+		}
+		td[class=em_hide], table[class=em_hide], span[class=em_hide], br[class=em_hide]{
+			display:none !important;
+		}
+		img[class=em_full_img]{
+			width:100% !important;
+			height:auto !important;
+		}
+		td[class=em_side]{
+			width:15px !important;
+		}
+		td[class=em_center]{
+			text-align:center !important;
+		}
+		span[class=em_br]{
+			display:block !important;
+		}
+		td[class=em_h_30]{
+			height:30px !important;
+		}
+		td[class=em_spc_20]{
+			height:20px !important;
+		}
+		td[class=em_gap_bottom]{
+			padding-bottom:30px !important;
+		}
+		td[class=em_bg_gray]{
+			background-color:#e6e6e6 !important;
+		}
+		td[class=em_whitefont] {
+			font-family: Arial, sans-serif !important;
+			font-size: 16px !important;
+			line-height: 24px !important;
+			color: #ffffff !important;
+			font-weight: bold !important;
+		}
+		span[class=em_block] {
+			display: block !important;
+		}
+		td[class=em_font] {
+			text-align: left !important;
+		}
+		div[class=hide_disktop] {
+			display: table !important;
+			float: none !important;
+			width: 100% !important;
+			overflow: visible !important;
+			height: auto !important;
+		}
+		td[class=em_mobbg] {
+			background-image:none !important;
+			background-color:#0d0d0d !important;
+		}
+	}
+
+	</style>
 </head>
+
 
 <body>
 
-<table class="body">
-	<tr>
-		<td></td>
-		<td class="container">
-			<div class="content">{{ body }}</div>
-		</td>
-		<td></td>
-	</tr>
-</table>
+	<table class="body">
+		<tr>
+			<td></td>
+			<td class="container">
+				<div class="content">{{ body }}</div>
+			</td>
+			<td></td>
+		</tr>
+	</table>
 
 </body>
 </html>

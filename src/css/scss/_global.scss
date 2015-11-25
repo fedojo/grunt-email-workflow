@@ -1,6 +1,11 @@
 /* -------------------------------------
     GLOBAL RESETS
 ------------------------------------- */
+body {
+  -webkit-text-size-adjust: 100% !important;
+	-ms-text-size-adjust: 100% !important;
+	-webkit-font-smoothing: antialiased !important;
+}
 
 table,
 td,
@@ -10,8 +15,15 @@ a {
 }
 
 img {
+  border: 0 !important;
+	outline: none !important;
   -ms-interpolation-mode: bicubic;
   max-width: 100%;
+}
+
+p {
+	Margin: 0px !important;
+	Padding: 0px !important;
 }
 
 body {
@@ -41,7 +53,21 @@ table {
   }
 }
 
-// External class fix for Outlook.com
+span.MsoHyperlink {
+	mso-style-priority: 99;
+	color: inherit;
+}
+
+span.MsoHyperlinkFollowed {
+	mso-style-priority: 99;
+	color: inherit;
+}
+
+a {
+	border-collapse: collapse;
+	mso-line-height-rule: exactly;
+}
+
 .ExternalClass {
   width: 100%;
 }
